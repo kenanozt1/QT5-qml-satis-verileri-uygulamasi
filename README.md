@@ -64,10 +64,5 @@ Kenan Öztürk
 📄 Lisans
 Bu proje MIT lisansı altında lisanslanmıştır.
 
-✨ Ekran Görüntüleri
-![Screenshot_3](https://github.com/user-attachments/assets/896b273f-0a11-4433-a123-131de8e20e9f)
-![Screenshot_2](https://github.com/user-attachments/assets/dbb339e9-3eea-450b-bacc-7b2ca405f1c7)
-![Screenshot_1](https://github.com/user-attachments/assets/a065624e-e2ed-4a67-bb06-753108ef7174)
-
 📝 Not
 Bu proje, Qt ve QML teknolojilerini kullanarak modern bir veri görüntüleme uygulaması geliştirme yeteneklerini göstermek amacıyla oluşturulmuştur.
