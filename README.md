@@ -1,0 +1,1 @@
+# QT5-qml-satis-verileri-uygulamasi
