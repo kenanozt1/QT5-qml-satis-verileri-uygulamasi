@@ -1,0 +1,22 @@
+{
+	"BUILD_DIR" : "C:/Users/KENAN/Desktop/KenanOzturkProje/build/Desktop_Qt_5_15_0_MSVC2015_64bit-Debug/KenanOzturkProje_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/KENAN/Desktop/KenanOzturkProje/build/Desktop_Qt_5_15_0_MSVC2015_64bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/KENAN/Desktop/KenanOzturkProje/build/Desktop_Qt_5_15_0_MSVC2015_64bit-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/KENAN/Desktop/KenanOzturkProjeold",
+	"CMAKE_SOURCE_DIR" : "C:/Users/KENAN/Desktop/KenanOzturkProjeold",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "C:/Users/KENAN/Desktop/KenanOzturkProje/build/Desktop_Qt_5_15_0_MSVC2015_64bit-Debug/KenanOzturkProje_autogen/include",
+	"INPUTS" : [ "C:/Users/KENAN/Desktop/KenanOzturkProjeold/main.qml" ],
+	"LOCK_FILE" : "C:/Users/KENAN/Desktop/KenanOzturkProje/build/Desktop_Qt_5_15_0_MSVC2015_64bit-Debug/CMakeFiles/KenanOzturkProje_autogen.dir/AutoRcc_qml_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "qml" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_qml.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/5.15.0/msvc2015_64/bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "C:/Users/KENAN/Desktop/KenanOzturkProje/build/Desktop_Qt_5_15_0_MSVC2015_64bit-Debug/CMakeFiles/KenanOzturkProje_autogen.dir/AutoRcc_qml_EWIEGA46WW_Used.txt",
+	"SOURCE" : "C:/Users/KENAN/Desktop/KenanOzturkProjeold/qml.qrc",
+	"USE_BETTER_GRAPH" : false,
+	"VERBOSITY" : 0
+}
