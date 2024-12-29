@@ -19,6 +19,7 @@ ApplicationWindow {
 
     property string baslangicTarihi: ""
     property string bitisTarihi: ""
+    property string minBaslangicTarihi: ""
 
     DatabaseManager {
         id: dbManager
@@ -173,6 +174,9 @@ ApplicationWindow {
                     if (calendarDialog.title === "Başlangıç Tarihi Seçiniz") {
                         baslangicTarihi = formattedDate;
                         startDateField.text = baslangicTarihi;
+                        minBaslangicTarihi = selectedDate.getFullYear() + "-" +
+                                (selectedDate.getMonth() + 1).toString().padStart(2, '0') + "-" +
+                                (selectedDate.getDate()+1).toString().padStart(2, '0');
                     } else {
                         bitisTarihi = formattedDate;
                         endDateField.text = bitisTarihi;
@@ -181,6 +185,7 @@ ApplicationWindow {
             }
             Calendar {
                 id: calendar
+                minimumDate: minBaslangicTarihi
             }
         }
     }
