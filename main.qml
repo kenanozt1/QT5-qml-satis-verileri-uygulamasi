@@ -54,14 +54,15 @@ ApplicationWindow {
                 width: 120
                 height: 50
                 onClicked: {
-                    // var date = baslangicTarihi.split("-")
-                    // console.log(date[2].,"-",date[1],"-",date[0])
-
                     if (baslangicTarihi && bitisTarihi) {
-                        var data = dbManager.getSales(baslangicTarihi, bitisTarihi);
-                        tableModel.clear();
-                        for (var i = 0; i < data.length; i++) {
-                            tableModel.append(data[i]);
+                        if(baslangicTarihi > bitisTarihi){
+                            tarihKontrolDialog.open()
+                        }else{
+                            var data = dbManager.getSales(baslangicTarihi, bitisTarihi);
+                            tableModel.clear();
+                            for (var i = 0; i < data.length; i++) {
+                                tableModel.append(data[i]);
+                            }
                         }
                     }else{
                         tarihSecDialog.open()
@@ -77,6 +78,15 @@ ApplicationWindow {
             visible:false
             onAccepted: {
                 tarihSecDialog.close()
+            }
+        }
+        MessageDialog {
+            id: tarihKontrolDialog
+            title: "Tarih Seçiminde Hata"
+            text: "Lütfen devam etmek için tarih aralığını uygun seçin"
+            visible:false
+            onAccepted: {
+                tarihKontrolDialog.close()
             }
         }
         Row {
