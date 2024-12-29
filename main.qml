@@ -180,9 +180,20 @@ ApplicationWindow {
                     } else {
                         bitisTarihi = formattedDate;
                         endDateField.text = bitisTarihi;
+                        console.log(calendar.minimumDate,"bitiş")
                     }
                 }
             }
+            onVisibleChanged: {
+                    if (visible) {
+                        if (calendarDialog.title === "Başlangıç Tarihi Seçiniz") {
+                            calendar.selectedDate = undefined;
+                            calendar.minimumDate = new Date(2000, 0, 1);
+                        } else {
+                            calendar.minimumDate = new Date(minBaslangicTarihi);
+                        }
+                    }
+                }
             Calendar {
                 id: calendar
                 minimumDate: minBaslangicTarihi
